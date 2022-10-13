@@ -8,8 +8,8 @@ public class exercicio_03 {
 
         if (N < 50) {
 
-            int[] V1 = new int[0];
-            int[] V2=new int[0];
+            int[] V1 = new int[N];
+            int[] V2=new int[N];
 
             for (int i=0;i<N;i++){
                 System.out.printf("digite os numeros de V1[%d]",i);
@@ -31,7 +31,7 @@ public class exercicio_03 {
 
         } else {
             System.out.println("digite um valor menor que 50");
-            int N = enter.nextInt();
+            N = enter.nextInt();
         }
     }
 }

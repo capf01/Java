@@ -1,0 +1,27 @@
+import java.time.LocalDate;
+public class datas {
+    public static void main(String[] args) {
+
+        LocalDate hoje =LocalDate.now();
+        System.out.println(hoje);
+
+        LocalDate natal=LocalDate.of(2022,12,25);
+        System.out.println(natal);
+
+        System.out.println(hoje.isAfter(natal));
+        System.out.println(hoje.isBefore(natal));
+
+        int ano=hoje.getYear();
+        int mes=hoje.getMonthValue();
+
+        System.out.println(ano);
+        System.out.println(mes);
+
+        int diasParaNatal = natal.getDayOfYear()- hoje.getDayOfYear();
+
+        System.out.println("Faltam   "+diasParaNatal+"  dias para o Natal!!");
+
+
+
+    }
+}
