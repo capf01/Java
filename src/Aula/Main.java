@@ -1,3 +1,5 @@
+package Aula;
+
 public class Main {
     //Dentro do laço main sempre será execultado.
     public static void main(String[] args) {

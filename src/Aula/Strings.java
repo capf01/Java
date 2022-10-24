@@ -1,3 +1,5 @@
+package Aula;
+
 import java.util.Scanner;
 public class Strings {
     public static void main(String[] args) {

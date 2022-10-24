@@ -1,3 +1,5 @@
+package Exercicios;
+
 import java.util.Scanner;
 public class exercicio_05 {
     public static void main(String [] args){

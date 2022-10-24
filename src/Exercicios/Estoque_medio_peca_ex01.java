@@ -1,3 +1,5 @@
+package Exercicios;
+
 import java.util.Scanner;
 public class Estoque_medio_peca_ex01 {
     public static void main(String[] args) {
